@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beginners Activity Level 2</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+    <script src="./assets/js/level_2.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <form action="submit" id="select_number_form">
+            <label for="select_a_number">Select a number:</label>
+            <select name="number" id="select_a_number" class="select_option">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+        </form>
+
+        <div id="appended_images_container">
+            <ul id="appended_images">
+                
+            </ul>
+        </div>
+
+        <div id="image_clone_container">
+            <ul>
+                <li id="image_clone">
+                    <img class="images" src="./assets/image/image.png" alt="image">
+                    <button type="button" class="delete_button">x</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

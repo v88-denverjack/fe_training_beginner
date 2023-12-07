@@ -1,0 +1,56 @@
+* {
+  margin: auto;
+  padding: 0px;
+}
+#image_clone_container {
+  display: none;
+}
+#wrapper {
+  background-color: #d9d9d9;
+  max-width: 978px;
+  min-height: 100vh;
+  padding: 50px;
+}
+#wrapper #select_number_form {
+  display: flex;
+  flex-wrap: wrap;
+}
+#wrapper #select_number_form label {
+  margin-bottom: 10px;
+  width: 100%;
+}
+#wrapper #select_number_form .select_option {
+  margin-bottom: 20px !important;
+  margin: 0px;
+  width: 200px;
+}
+#wrapper #appended_images_container #appended_images {
+  display: flex;
+  justify-content: flex-start;
+}
+#wrapper #appended_images_container #appended_images li {
+  list-style: none;
+  margin: 0px 5px 0px 0px;
+  position: relative;
+}
+#wrapper #appended_images_container #appended_images li button {
+  background-color: red;
+  border-radius: 50%;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 5px;
+  position: absolute;
+  right: -5px;
+  top: -12px;
+}
+#wrapper #multiplication_table_container table {
+  border-collapse: collapse;
+  margin: 0px;
+}
+#wrapper #multiplication_table_container table tbody tr td {
+  border-collapse: separate;
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
