@@ -13,11 +13,11 @@ function dynamicTableElements(){
     $("#dynamic_table_elements").text("");
 
     /* First index value to be multiplied */
-    for(let index1 = 0; index1 <= $("#row_element").val(); index1++){
+    for(let index1 = 0; index1 <= $("#row_element").val() -1; index1++){
         let table_row = $("<tr></tr>");
 
          /* Second index value to be multiplied and append in td */
-        for(let index2 = 0; index2 <= $("#column_element").val(); index2++){
+        for(let index2 = 0; index2 <= $("#column_element").val() -1; index2++){
 
             /* Append the table column to the current row */
             table_row.append($("<td>" + index1 + "," + index2 + "</td>"));
