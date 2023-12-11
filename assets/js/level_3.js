@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-    $("body").on("change", "#generate_multiplication", generateMultiplicationTable)
+    $("body").on("change", "#select_number_form", generateMultiplicationTable)
 });
 
 /**

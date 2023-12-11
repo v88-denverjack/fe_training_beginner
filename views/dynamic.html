@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Table Elements</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+    <script src="../assets/js/dynamic.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <form action="#" id="dynamic_table_form" class="form">
+            <div class="column">
+                <label for="row_element">Select number of rows:</label>
+                <select name="number" id="row_element" class="select_option">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+            </div>
+            
+            <div class="column">
+                <label for="column_element">Select number of columns:</label>
+                <select name="number" id="column_element" class="select_option">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+            </div>
+        </form>
+
+        <section id="table_container">
+            <table>
+                <tbody id="dynamic_table_elements"></tbody>
+            </table>
+        </section>
+    </div>
+    
+</body>
+</html>

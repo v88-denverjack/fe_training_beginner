@@ -11,7 +11,7 @@
     max-width: 978px;
     min-height: 100vh;
     padding: 50px;
-    #select_number_form{
+    .form{
         display: flex;
         flex-wrap: wrap;
         label{
@@ -22,6 +22,20 @@
             margin-bottom: 20px !important;
             margin: 0px;
             width: 200px;
+        }
+        .column{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            width: 40%;
+            margin: 0px;
+            label{
+                width: 100%;
+            }
+            .select_option{
+                padding: 5px;
+                width: 100%;
+            }
         }
     }
     #appended_images_container{
@@ -61,5 +75,27 @@
                 }
             }
         }
+    }
+    #table_container{
+        table{
+            border-spacing: 10px;
+            margin: 0px;
+            #dynamic_table_elements{
+                tr{
+                    td{
+                        border-radius: 5px;
+                        border: 1px solid black;
+                        font-weight: 700;
+                        padding: 10px;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+    #dynamic_table_form{
+       .column:nth-child(1){
+        margin-right: 50px;
+       }
     }
 }
